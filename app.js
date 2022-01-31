@@ -35,7 +35,7 @@ async function getWeather() {
         const store = ConvertToDegree(TempInKelvin);
 
         // styling body
-        bodyStyle.style.backgroundColor = '#efc050';
+        //bodyStyle.style.backgroundColor = '#efc050';
         forcastStyle.style.border = '4px solid white';
 
         Climate();
