@@ -15,7 +15,7 @@ search.addEventListener('click', () => {
     city = cityname.value;
     
     // reset to default 
-    forcastStyle.style.border = '0';
+    forcastStyle.style.border = '';
     img.src = ''
 
     getWeather();
